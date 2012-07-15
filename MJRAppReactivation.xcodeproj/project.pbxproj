@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9E040FD15B2AF8F00A32E47 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E040FC15B2AF8F00A32E47 /* Cocoa.framework */; };
+		C9E0410715B2AF8F00A32E47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9E0410515B2AF8F00A32E47 /* InfoPlist.strings */; };
+		C9E0410915B2AF8F00A32E47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E0410815B2AF8F00A32E47 /* main.m */; };
+		C9E0410D15B2AF8F00A32E47 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C9E0410B15B2AF8F00A32E47 /* Credits.rtf */; };
+		C9E0411015B2AF8F00A32E47 /* MJRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E0410F15B2AF8F00A32E47 /* MJRAppDelegate.m */; };
+		C9E0411315B2AF8F00A32E47 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9E0411115B2AF8F00A32E47 /* MainMenu.xib */; };
+		C9E0411F15B2B04D00A32E47 /* MJRAppReactivation.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E0411E15B2B04D00A32E47 /* MJRAppReactivation.m */; };
+		C9E0412B15B2B1CF00A32E47 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C9E0412A15B2B1CF00A32E47 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9E040F815B2AF8F00A32E47 /* MJRAppReactivation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJRAppReactivation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E040FC15B2AF8F00A32E47 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C9E040FF15B2AF8F00A32E47 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C9E0410015B2AF8F00A32E47 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C9E0410115B2AF8F00A32E47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9E0410415B2AF8F00A32E47 /* MJRAppReactivation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MJRAppReactivation-Info.plist"; sourceTree = "<group>"; };
+		C9E0410615B2AF8F00A32E47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9E0410815B2AF8F00A32E47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9E0410A15B2AF8F00A32E47 /* MJRAppReactivation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MJRAppReactivation-Prefix.pch"; sourceTree = "<group>"; };
+		C9E0410C15B2AF8F00A32E47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C9E0410E15B2AF8F00A32E47 /* MJRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJRAppDelegate.h; sourceTree = "<group>"; };
+		C9E0410F15B2AF8F00A32E47 /* MJRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJRAppDelegate.m; sourceTree = "<group>"; };
+		C9E0411215B2AF8F00A32E47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C9E0411D15B2B04D00A32E47 /* MJRAppReactivation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRAppReactivation.h; sourceTree = "<group>"; };
+		C9E0411E15B2B04D00A32E47 /* MJRAppReactivation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRAppReactivation.m; sourceTree = "<group>"; };
+		C9E0412A15B2B1CF00A32E47 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9E040F515B2AF8F00A32E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E040FD15B2AF8F00A32E47 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9E040ED15B2AF8F00A32E47 = {
+			isa = PBXGroup;
+			children = (
+				C9E0410215B2AF8F00A32E47 /* MJRAppReactivation */,
+				C9E040FB15B2AF8F00A32E47 /* Frameworks */,
+				C9E040F915B2AF8F00A32E47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9E040F915B2AF8F00A32E47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9E040F815B2AF8F00A32E47 /* MJRAppReactivation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9E040FB15B2AF8F00A32E47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9E040FC15B2AF8F00A32E47 /* Cocoa.framework */,
+				C9E040FE15B2AF8F00A32E47 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9E040FE15B2AF8F00A32E47 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9E040FF15B2AF8F00A32E47 /* AppKit.framework */,
+				C9E0410015B2AF8F00A32E47 /* CoreData.framework */,
+				C9E0410115B2AF8F00A32E47 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C9E0410215B2AF8F00A32E47 /* MJRAppReactivation */ = {
+			isa = PBXGroup;
+			children = (
+				C9E0411D15B2B04D00A32E47 /* MJRAppReactivation.h */,
+				C9E0411E15B2B04D00A32E47 /* MJRAppReactivation.m */,
+				C9E0410E15B2AF8F00A32E47 /* MJRAppDelegate.h */,
+				C9E0410F15B2AF8F00A32E47 /* MJRAppDelegate.m */,
+				C9E0411115B2AF8F00A32E47 /* MainMenu.xib */,
+				C9E0412A15B2B1CF00A32E47 /* README.md */,
+				C9E0410315B2AF8F00A32E47 /* Supporting Files */,
+			);
+			path = MJRAppReactivation;
+			sourceTree = "<group>";
+		};
+		C9E0410315B2AF8F00A32E47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9E0410415B2AF8F00A32E47 /* MJRAppReactivation-Info.plist */,
+				C9E0410515B2AF8F00A32E47 /* InfoPlist.strings */,
+				C9E0410815B2AF8F00A32E47 /* main.m */,
+				C9E0410A15B2AF8F00A32E47 /* MJRAppReactivation-Prefix.pch */,
+				C9E0410B15B2AF8F00A32E47 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9E040F715B2AF8F00A32E47 /* MJRAppReactivation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E0411615B2AF8F00A32E47 /* Build configuration list for PBXNativeTarget "MJRAppReactivation" */;
+			buildPhases = (
+				C9E040F415B2AF8F00A32E47 /* Sources */,
+				C9E040F515B2AF8F00A32E47 /* Frameworks */,
+				C9E040F615B2AF8F00A32E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJRAppReactivation;
+			productName = MJRAppReactivation;
+			productReference = C9E040F815B2AF8F00A32E47 /* MJRAppReactivation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9E040EF15B2AF8F00A32E47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MJR;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C9E040F215B2AF8F00A32E47 /* Build configuration list for PBXProject "MJRAppReactivation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9E040ED15B2AF8F00A32E47;
+			productRefGroup = C9E040F915B2AF8F00A32E47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9E040F715B2AF8F00A32E47 /* MJRAppReactivation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9E040F615B2AF8F00A32E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E0410715B2AF8F00A32E47 /* InfoPlist.strings in Resources */,
+				C9E0410D15B2AF8F00A32E47 /* Credits.rtf in Resources */,
+				C9E0411315B2AF8F00A32E47 /* MainMenu.xib in Resources */,
+				C9E0412B15B2B1CF00A32E47 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9E040F415B2AF8F00A32E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E0410915B2AF8F00A32E47 /* main.m in Sources */,
+				C9E0411015B2AF8F00A32E47 /* MJRAppDelegate.m in Sources */,
+				C9E0411F15B2B04D00A32E47 /* MJRAppReactivation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9E0410515B2AF8F00A32E47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9E0410615B2AF8F00A32E47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9E0410B15B2AF8F00A32E47 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9E0410C15B2AF8F00A32E47 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C9E0411115B2AF8F00A32E47 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9E0411215B2AF8F00A32E47 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9E0411415B2AF8F00A32E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9E0411515B2AF8F00A32E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9E0411715B2AF8F00A32E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MJRAppReactivation/MJRAppReactivation-Prefix.pch";
+				INFOPLIST_FILE = "MJRAppReactivation/MJRAppReactivation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9E0411815B2AF8F00A32E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MJRAppReactivation/MJRAppReactivation-Prefix.pch";
+				INFOPLIST_FILE = "MJRAppReactivation/MJRAppReactivation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9E040F215B2AF8F00A32E47 /* Build configuration list for PBXProject "MJRAppReactivation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E0411415B2AF8F00A32E47 /* Debug */,
+				C9E0411515B2AF8F00A32E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E0411615B2AF8F00A32E47 /* Build configuration list for PBXNativeTarget "MJRAppReactivation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E0411715B2AF8F00A32E47 /* Debug */,
+				C9E0411815B2AF8F00A32E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9E040EF15B2AF8F00A32E47 /* Project object */;
+}
