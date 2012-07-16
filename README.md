@@ -1,14 +1,13 @@
 MJRAppReactivation
 ==================
 
-Cocoa/Objective-C singleton allowing reactivation of previously active apps.
+Cocoa/Objective-C/ARC singleton allowing reactivation of previously active apps.
 
 This code is free to use under the terms of the Apache License, Version 2.0.
 
     http://www.apache.org/licenses/LICENSE-2.0
 
-The motiviation for the MJRAppReactivation class was an app I'm working on that has an NSStatusItem menu.
-After the app is activated and the user completes an action, the user's original application should be reactivated.
+The motiviation for the MJRAppReactivation class was an app I'm working on that has an NSStatusItem menu. After the app is activated and the user completes an action, the user's original application should be reactivated.
 
 The class is a singleton that can be started/stopped. It will observe the NSWorkspace notification _NSWorkspaceDidDeactivateApplicationNotification_ and keep a reference to the most recently deactivated application. To start observing, use:
 
