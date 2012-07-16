@@ -3,6 +3,10 @@
 //  MJRAppReactivation
 //
 //  Created by Matt Robertson on 15-Jul-2012.
+//  Copyright 2012 MJR Information Technology Pty Limited
+//
+//  Licensed under the Apache License, Version 2.0 
+//      http://www.apache.org/licenses/LICENSE-2.0
 //
 
 #import "MJRAppReactivation.h"
