@@ -18,7 +18,7 @@ If your app has (or may have) been activated, then to reactivate the previously 
 
     activatePreviousActiveApplication
 
-This should be safe to call at any time. If no previously active application is referenced yet, or if the last deactivation was the current application itself, nothing will happen (returns NO). If YES is returned, another application has been successfully activated.
+This should be safe to call at any time. If _this_ application is not active, or if no previously active application is referenced yet, nothing will happen (returns NO). If YES is returned, another application has been successfully activated.
 
 The included AppDelegate and nib demonstrate MJRAppReactivation usage, just open and run the project.
 

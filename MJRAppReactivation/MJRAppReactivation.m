@@ -67,9 +67,8 @@ __strong static id _sharedIntance = nil;
 
 -(BOOL)activatePreviousActiveApplication {
     BOOL success = NO;
-    if (_previousActiveApplication != nil &&
-        ![[_previousActiveApplication bundleIdentifier] isEqualTo:[[NSBundle mainBundle] bundleIdentifier]]) {
-            success = [_previousActiveApplication activateWithOptions:0];
+    if (_previousActiveApplication != nil && [NSApp isActive]) {
+        success = [_previousActiveApplication activateWithOptions:0];
     }
     return success;
 }

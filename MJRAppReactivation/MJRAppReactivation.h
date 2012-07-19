@@ -35,8 +35,11 @@
 
 /*
  * Activates the previousActiveApplication
- *    - if available, and
- *    - if the previousActiveApplication is NOT this application
+ *    - if THIS application is currently active, and
+ *    - if available
+ *
+ * Checking this application is active is important, to avoid
+ * accidentally switching between 2 other apps.
  *
  * Returns YES if another app was successfully re-activated.
  */
